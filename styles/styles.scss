@@ -1,0 +1,25 @@
+.bg {
+    display: block;
+    margin: 40px 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #007bff;
+}
+
+body {
+    background-color: black;
+}
+
+.table {
+    display: block;
+    width: 70%;
+    height: 50%;
+    padding: 20px;
+    background-color: white;
+    opacity: .4;
+}
+
+p {
+    font-weight: 700 !important;
+    letter-spacing: .2em;
+}
