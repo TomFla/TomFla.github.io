@@ -2,8 +2,16 @@
   display: block;
   width: 70%;
   height: 50%;
-  padding: 20px;
+  padding: 5px;
   background-color: white;
   opacity: .4;
+}
+
+.footer-bg {
+  background: #15336c;
+}
+
+.font-gray {
+  color: #8A99B6;
 }
 /*# sourceMappingURL=styles.css.map */

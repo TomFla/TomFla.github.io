@@ -12,7 +12,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar  sticky-top navbar-expand-lg  bg-primary navbar-dark container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg footer-bg navbar-dark container-fluid py-4">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="/assets/Logotyp.png" alt="Logotyp OPS" class="img-thumbnail" style="width:60px;">
@@ -21,7 +21,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto nav-stacked">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Informacje <span class="sr-only">(current)</span></a>
                     </li>
@@ -32,19 +32,18 @@
                         <a class="nav-link" href="#">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kontakt</a>
+                        <a class="nav-link" href="#footer" data-target="footer">Kontakt</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
-            WACG 2.1
-          </span>
+                    <h4>WCAG 2.1</h4>
+                </span>
             </div>
         </div>
     </nav>
 
     <!-- Jumbotron -->
-    <!-- test -->
-    <div class="jumbotron jumbotron-fluid bg-primary text-light">
+    <div class="jumbotron jumbotron-fluid footer-bg text-dark">
         <div class="container">
             <h1 class="display-4">Hello, world!</h1>
             <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, et cum perspiciatis illum numquam nesciunt rerum ab magni quisquam omnis eius? Accusamus optio voluptas delectus voluptatem praesentium ullam quae dolorem. Lorem, ipsum dolor sit
@@ -52,7 +51,7 @@
             <hr class="my-4">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa hic est debitis, atque mollitia quam obcaecati impedit accusamus dicta quos beatae aut fugiat eos ea laboriosam molestiae. Nihil, laudantium?</p>
             <p class="lead">
-                <a class="btn btn-light btn-lg" href="#" role="button">Learn more</a>
+                <a class="btn btn-primary btn-lg font-gray" href="#" role="button">Learn more</a>
             </p>
         </div>
     </div>
@@ -70,8 +69,8 @@
                     <img class="d-block w-100" src="https://picsum.photos/id/111/1200/400" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="table">
-                            <h5 class="display-3">Dodatki mieszkaniowe</h5>
-                            <p>Sprawdź co możesz zrobić...</p>
+                            <h5 class="display-3 d-none d-lg-block">Dodatki mieszkaniowe</h5>
+                            <p class="d-none d-lg-block">Sprawdź co możesz zrobić...</p>
                         </div>
                     </div>
                 </div>
@@ -79,8 +78,8 @@
                     <img class="d-block w-100" src="https://picsum.photos/id/210/1200/400" alt="Second slide">
                     <div class="carousel-caption d-none d-md-block">
                         <div class="table">
-                            <h5 class="display-3">Stypendia Szkolne</h5>
-                            <p>Sprawdź co możesz zrobić...</p>
+                            <h5 class="display-3 d-none d-lg-block">Stypendia Szkolne</h5>
+                            <p class="d-none d-lg-block">Sprawdź co możesz zrobić...</p>
                         </div>
                     </div>
                 </div>
@@ -88,8 +87,8 @@
                     <img class="d-block w-100 " src="https://picsum.photos/id/249/1200/400" alt="Third slide ">
                     <div class="carousel-caption d-none d-md-block ">
                         <div class="table">
-                            <h5 class="display-3">Sprawy Socjalne</h5>
-                            <p>Sprawdź co możesz zrobić...</p>
+                            <h5 class="display-3 d-none d-lg-block">Sprawy Socjalne</h5>
+                            <p class="d-none d-lg-block">Sprawdź co możesz zrobić...</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +105,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Pomoc Społeczna</h3>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eius nam amet assumenda aspernatur, tempore illum ipsam ducimus magni odit. Eaque aspernatur excepturi culpa nesciunt autem consequatur. Quia, optio aspernatur.</p>
-                        <a href="#" class="btn btn-primary">Czytaj więcej</a>
+                        <a href="#" class="btn btn-primary font-gray">Czytaj więcej</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +117,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laboriosam exercitationem culpa omnis! Repellendus quo neque, eligendi voluptate quas iure, suscipit dolores explicabo odit culpa ratione maiores. Modi, incidunt
                             fuga!
                         </p>
-                        <a href="#" class="btn btn-primary">Czytaj więcej</a>
+                        <a href="#" class="btn btn-primary font-gray">Czytaj więcej</a>
                     </div>
                 </div>
             </div>
@@ -130,20 +129,17 @@
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus perspiciatis soluta dicta. Repudiandae error nobis voluptate itaque quam magni minus! Praesentium quo magni doloremque vero harum deserunt libero
                             sit.
                         </p>
-                        <a href="#" class="btn btn-primary">Czytaj więcej</a>
+                        <a href="#" class="btn btn-primary font-gray">Czytaj więcej</a>
                     </div>
                 </div>
             </div>
-
-        </div>
-        <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4 my-5">
                 <div class="card">
                     <img class="card-img-top" src="https://picsum.photos/200?random=4" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="card-title">Pomoc Dziecku i Rodzinie</h3>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus, odit provident sint accusamus debitis atque officia optio ea, labore minus esse architecto quod quisquam eveniet voluptate. Aliquam, architecto ipsum!</p>
-                        <a href="#" class="btn btn-primary">Czytaj więcej</a>
+                        <a href="#" class="btn btn-primary font-gray">Czytaj więcej</a>
                     </div>
                 </div>
             </div>
@@ -154,7 +150,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Pomoc Osobą Starszym</h3>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus, odit provident sint accusamus debitis atque officia optio ea, labore minus esse architecto quod quisquam eveniet voluptate. Aliquam, architecto ipsum!</p>
-                        <a href="#" class="btn btn-primary">Czytaj więcej</a>
+                        <a href="#" class="btn btn-primary font-gray">Czytaj więcej</a>
                     </div>
                 </div>
             </div>
@@ -165,14 +161,34 @@
                     <div class="card-body">
                         <h3 class="card-title">Pomoc Osobą Niepełnosprawnym</h3>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, delectus, odit provident sint accusamus debitis atque officia optio ea, labore minus esse architecto quod quisquam eveniet voluptate. Aliquam, architecto ipsum!</p>
-                        <a href="#" class="btn btn-primary">Czytaj więcej</a>
+                        <a href="#" class="btn btn-primary font-gray">Czytaj więcej</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- end of mainBox -->
 
-    <footer>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container-fluid py-5 px-5 footer-bg font-gray">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 px-5">
+                    <h3>Contacts and Google Maps</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure asperiores accusamus, necessitatibus a adipisci nihil voluptatem ipsum, repudiandae esse ipsa doloremque quam iste illum! Modi nisi autem maxime suscipit dicta?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure asperiores accusamus, necessitatibus a adipisci nihil voluptatem ipsum, repudiandae esse ipsa doloremque quam iste illum! Modi nisi autem maxime suscipit dicta?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure asperiores accusamus, necessitatibus a adipisci nihil voluptatem ipsum, repudiandae esse ipsa doloremque quam iste illum! Modi nisi autem maxime suscipit dicta?</p>
+                </div>
+                <div class="col-sm-12 col-md-6 px-5">
+                    <h3>Contact form and cosial media</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, saepe consequuntur quo voluptatum reprehenderit inventore ducimus voluptate aspernatur perspiciatis ipsa sed porro, deserunt possimus aliquid nesciunt nulla maiores molestiae
+                        aperiam?
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure asperiores accusamus, necessitatibus a adipisci nihil voluptatem ipsum, repudiandae esse ipsa doloremque quam iste illum! Modi nisi autem maxime suscipit dicta?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure asperiores accusamus, necessitatibus a adipisci nihil voluptatem ipsum, repudiandae esse ipsa doloremque quam iste illum! Modi nisi autem maxime suscipit dicta?</p>
+                </div>
+            </div>
+        </div>
 
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
